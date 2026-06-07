@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="19年半の超長期バックテストから生まれた、完全放置型バイナリー自動売買システム RBS.edge。">
+  <title>RBS.edge | 完全放置型バイナリー自動売買</title>
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="header-logo" href="#top" aria-label="RBS.edge トップへ">
+      <img src="assets/logo.png" alt="RBS.edge">
+    </a>
+    <nav class="header-nav" aria-label="メインナビゲーション">
+      <a href="#features">選ばれる理由</a>
+      <a href="#results">実績</a>
+      <a href="#contents">提供内容</a>
+    </nav>
+    <a class="button button-small purchase-link" href="#price">購入する</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="chart-grid" aria-hidden="true"></div>
+      <svg class="hero-chart" viewBox="0 0 1200 360" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="chartLine" x1="0" x2="1">
+            <stop offset="0" stop-color="#0677ff" stop-opacity=".05"/>
+            <stop offset=".55" stop-color="#0677ff" stop-opacity=".45"/>
+            <stop offset="1" stop-color="#00cce8" stop-opacity=".12"/>
+          </linearGradient>
+          <linearGradient id="chartArea" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0" stop-color="#0c8cff" stop-opacity=".12"/>
+            <stop offset="1" stop-color="#0c8cff" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <path class="chart-area" d="M0 320 C130 300 150 230 250 255 S385 310 455 205 S580 165 650 190 S760 260 825 145 S950 100 1010 125 S1100 78 1200 25 V360 H0Z"/>
+        <path class="chart-line" d="M0 320 C130 300 150 230 250 255 S385 310 455 205 S580 165 650 190 S760 260 825 145 S950 100 1010 125 S1100 78 1200 25"/>
+      </svg>
+
+      <div class="hero-content">
+        <div class="eyebrow"><span></span>長期データから導いた自動売買システム</div>
+        <img class="hero-logo" src="assets/logo.png" alt="RBS.edge">
+        <h1>
+          <span>19年半の超長期バックテストが生んだ</span>
+          完全放置型 バイナリー自動売買
+        </h1>
+        <p class="hero-lead">
+          <strong>MT4を起動 <i>→</i> RBS.edgeを起動 <i>→</i> あとは放置するだけ</strong>
+          初心者でも簡単に始められる完全自動システム
+        </p>
+        <a class="button button-primary button-hero purchase-link" href="#price">
+          <span>RBS.edgeを購入する</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+        <div class="hero-notes">
+          <span><b>01</b> 導入動画つき</span>
+          <span><b>02</b> 専門知識不要</span>
+          <span><b>03</b> LINEサポート</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#problems" aria-label="次のセクションへ">
+        <span>SCROLL</span><i></i>
+      </a>
+    </section>
+
+    <section class="problem-section section" id="problems">
+      <div class="section-inner narrow">
+        <p class="section-kicker">PROBLEM</p>
+        <h2>こんなお悩みありませんか？</h2>
+        <p class="section-intro">「自動売買だから楽になる」と思ったのに、結局チャートから離れられない。</p>
+        <div class="problem-list">
+          <article class="problem-card reveal">
+            <span class="problem-number">01</span>
+            <div class="problem-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V9m5 10V5m5 14v-7m5 7V3"/><path d="m3 7 5 4 5-6 7 3"/></svg>
+            </div>
+            <p>勝率が安定せず、<strong>ロジック選びを繰り返している</strong></p>
+          </article>
+          <article class="problem-card reveal">
+            <span class="problem-number">02</span>
+            <div class="problem-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            </div>
+            <p>サイン確認や手動操作が必要で、<strong>結局放置できない</strong></p>
+          </article>
+          <article class="problem-card reveal">
+            <span class="problem-number">03</span>
+            <div class="problem-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a5 5 0 0 1 0-10 6 6 0 0 1 11 3 4 4 0 0 1-1 8"/><path d="m9 15 3 3 3-3"/></svg>
+            </div>
+            <p>設定や導入が難しく、<strong>始める前に諦めてしまう</strong></p>
+          </article>
+          <article class="problem-card reveal">
+            <span class="problem-number">04</span>
+            <div class="problem-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v12H7l-3 3z"/><path d="M8 9h8m-8 3h5"/></svg>
+            </div>
+            <p>購入後に質問できず、<strong>ひとりでトラブルを抱えている</strong></p>
+          </article>
+        </div>
+        <div class="solution-line">
+          <span>その悩みを</span><strong>RBS.edge</strong><span>がシンプルに解決します。</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-section section" id="features">
+      <div class="section-inner">
+        <p class="section-kicker">WHY RBS.edge</p>
+        <h2>選ばれる、4つの理由</h2>
+        <p class="section-intro features-intro">長期検証・自動運用・対応環境・サポート。運用を続けるために必要な要素を、ひとつに。</p>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <span class="feature-index">01</span>
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5m0 14h16"/><path d="m7 15 4-5 3 3 5-7"/></svg>
+            </div>
+            <h3><em>19年半</em>超長期分析</h3>
+            <p>短期間の結果だけに頼らず、過去約19年半のローソク足データを使ってロジックを検証。</p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="feature-index">02</span>
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3h8l1 4 3 2v8l-3 2-1 2H8l-1-2-3-2V9l3-2z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <h3><em>完全自動</em>放置運用</h3>
+            <p>MT4とRBS.edgeを起動したら、エントリー処理はシステムに任せて運用できます。</p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="feature-index">03</span>
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 15v-3m4 3V9m4 6v-5m4 5v-7"/></svg>
+            </div>
+            <h3><em>取引サイト</em>完全対応</h3>
+            <p>取引サイトの取引環境に合わせた設計。導入から稼働まで迷いにくい手順を用意。</p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="feature-index">04</span>
+            <div class="feature-icon green">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 1 1-3-6"/><path d="M17 3v5h5"/><path d="M8 12h8M8 9h5m-5 6h6"/></svg>
+            </div>
+            <h3>公式LINE <em>半永久</em>サポート</h3>
+            <p>導入時の不明点から運用中の相談まで、公式LINEから継続してサポートします。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="results-section section" id="results">
+      <div class="section-inner">
+        <p class="section-kicker light">EVIDENCE</p>
+        <h2>数字と画面で見る、RBS.edge</h2>
+        <p class="section-intro light">長期検証だけでなく、実際の稼働画面と利用者から届いた声を公開しています。</p>
+
+        <div class="backtest-panel reveal">
+          <div class="backtest-copy">
+            <span class="mini-label">BACK TEST PERIOD</span>
+            <h3><strong>19.5</strong><span>YEARS</span></h3>
+            <p>約19年半分のローソク足データを対象に、相場環境の変化をまたいでロジックを検証。</p>
+            <div class="backtest-tags">
+              <span>超長期データ</span><span>複数通貨ペア</span><span>ロジック検証</span>
+            </div>
+          </div>
+          <div class="backtest-visual" aria-label="約19年半のバックテスト期間を表すチャート">
+            <div class="chart-stat">
+              <small>検証期間</small><b>約 19年半</b>
+            </div>
+            <svg viewBox="0 0 680 260" preserveAspectRatio="none" aria-hidden="true">
+              <defs>
+                <linearGradient id="resultArea" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0" stop-color="#19c8ff" stop-opacity=".35"/>
+                  <stop offset="1" stop-color="#19c8ff" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+              <path class="result-area" d="M0 220 C55 210 75 185 110 190 S155 220 195 165 S250 132 285 145 S345 175 380 120 S445 105 475 110 S525 75 555 86 S615 48 680 25 V260 H0Z"/>
+              <path class="result-line" d="M0 220 C55 210 75 185 110 190 S155 220 195 165 S250 132 285 145 S345 175 380 120 S445 105 475 110 S525 75 555 86 S615 48 680 25"/>
+            </svg>
+            <div class="timeline"><span>START</span><i></i><span>19.5 YEARS</span><i></i><span>NOW</span></div>
+          </div>
+        </div>
+
+        <div class="evidence-grid operation-grid">
+          <figure class="evidence-card evidence-wide reveal">
+            <div class="image-wrap">
+              <img src="assets/operation-screen.png" alt="RBS.edgeの自動エントリー稼働画面" loading="lazy">
+            </div>
+            <figcaption><span>01 / LIVE OPERATION</span><strong>実際の自動運用画面</strong><small>MT4・RBS.edge・取引画面の連携イメージ</small></figcaption>
+          </figure>
+        </div>
+
+        <div class="evidence-gallery-block">
+          <div class="gallery-heading">
+            <div>
+              <span>02 / TRADING HISTORY</span>
+              <h3>取引履歴・ペイアウト実績</h3>
+            </div>
+            <p>公開している運用結果の一例です。画像をクリックすると拡大して確認できます。</p>
+          </div>
+          <div class="evidence-gallery payout-gallery">
+            <a class="gallery-card reveal" href="assets/payout-result.jpg" target="_blank" rel="noopener">
+              <div class="gallery-image dark">
+                <img src="assets/payout-result.jpg" alt="取引履歴・ペイアウト実績 1" loading="lazy">
+                <span class="zoom-label">拡大表示</span>
+              </div>
+              <strong>取引履歴 01</strong>
+            </a>
+            <a class="gallery-card reveal" href="assets/payout-result%20(1).png" target="_blank" rel="noopener">
+              <div class="gallery-image dark">
+                <img src="assets/payout-result%20(1).png" alt="取引履歴・ペイアウト実績 2" loading="lazy">
+                <span class="zoom-label">拡大表示</span>
+              </div>
+              <strong>取引履歴 02</strong>
+            </a>
+            <a class="gallery-card reveal" href="assets/payout-result%20(2).png" target="_blank" rel="noopener">
+              <div class="gallery-image dark">
+                <img src="assets/payout-result%20(2).png" alt="取引履歴・ペイアウト実績 3" loading="lazy">
+                <span class="zoom-label">拡大表示</span>
+              </div>
+              <strong>取引履歴 03</strong>
+            </a>
+            <a class="gallery-card reveal" href="assets/payout-result%20(3).png" target="_blank" rel="noopener">
+              <div class="gallery-image dark">
+                <img src="assets/payout-result%20(3).png" alt="取引履歴・ペイアウト実績 4" loading="lazy">
+                <span class="zoom-label">拡大表示</span>
+              </div>
+              <strong>取引履歴 04</strong>
+            </a>
+          </div>
+        </div>
+
+        <div class="evidence-gallery-block voice-block">
+          <div class="gallery-heading">
+            <div>
+              <span>03 / USER VOICE</span>
+              <h3>利用者から届いた声</h3>
+            </div>
+            <p>実際にRBS.edgeを利用された方から寄せられた運用報告です。</p>
+          </div>
+          <div class="evidence-gallery voice-gallery">
+            <a class="gallery-card reveal" href="assets/user-voice.png" target="_blank" rel="noopener">
+              <div class="gallery-image voice">
+                <img src="assets/user-voice.png" alt="RBS.edge利用者から届いた声 1" loading="lazy">
+                <span class="zoom-label">拡大表示</span>
+              </div>
+              <strong>利用者の声 01</strong>
+            </a>
+            <a class="gallery-card reveal" href="assets/user-voice%20(1).png" target="_blank" rel="noopener">
+              <div class="gallery-image voice">
+                <img src="assets/user-voice%20(1).png" alt="RBS.edge利用者から届いた声 2" loading="lazy">
+                <span class="zoom-label">拡大表示</span>
+              </div>
+              <strong>利用者の声 02</strong>
+            </a>
+            <a class="gallery-card reveal" href="assets/user-voice%20(2).png" target="_blank" rel="noopener">
+              <div class="gallery-image voice">
+                <img src="assets/user-voice%20(2).png" alt="RBS.edge利用者から届いた声 3" loading="lazy">
+                <span class="zoom-label">拡大表示</span>
+              </div>
+              <strong>利用者の声 03</strong>
+            </a>
+            <a class="gallery-card reveal" href="assets/user-voice%20(3).png" target="_blank" rel="noopener">
+              <div class="gallery-image voice">
+                <img src="assets/user-voice%20(3).png" alt="RBS.edge利用者から届いた声 4" loading="lazy">
+                <span class="zoom-label">拡大表示</span>
+              </div>
+              <strong>利用者の声 04</strong>
+            </a>
+          </div>
+        </div>
+        <!-- <p class="result-note">※掲載内容は過去の運用結果・個人の感想であり、将来の利益や同様の成果を保証するものではありません。</p> -->
+      </div>
+    </section>
+
+    <section class="contents-section section" id="contents">
+      <div class="section-inner narrow">
+        <p class="section-kicker">PACKAGE</p>
+        <h2>購入後のお受け取り方法</h2>
+        <p class="section-intro">購入直後にシステム本体が届く形式ではありません。以下の手順でお受け取りください。</p>
+        <div class="delivery-flow">
+          <article class="delivery-step">
+            <span>STEP 01</span>
+            <div class="delivery-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 8 8 5 8-5"/></svg>
+            </div>
+            <h3>QRコードを受け取る</h3>
+            <p>購入後、最初にお送りするのは<strong>公式LINE登録用のQRコードのみ</strong>です。</p>
+          </article>
+          <i class="delivery-arrow" aria-hidden="true">→</i>
+          <article class="delivery-step">
+            <span>STEP 02</span>
+            <div class="delivery-icon line">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11a8 8 0 0 1-9 8l-5 2 1-4a8 8 0 1 1 13-6z"/><path d="M8 11h8m-8 3h5"/></svg>
+            </div>
+            <h3>公式LINEに登録</h3>
+            <p>QRコードを読み取り、RBS.edgeの<strong>公式LINEを友だち追加</strong>してください。</p>
+          </article>
+          <i class="delivery-arrow" aria-hidden="true">→</i>
+          <article class="delivery-step">
+            <span>STEP 03</span>
+            <div class="delivery-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="M8 21h8M12 18v3"/><path d="m8 14 3-4 2 2 3-4"/></svg>
+            </div>
+            <h3>システム一式を受け取る</h3>
+            <p>LINE登録後、<strong>メッセージ経由でシステム一式</strong>をお渡しします。</p>
+          </article>
+        </div>
+        <div class="delivery-notice">
+          <strong>ご確認ください</strong>
+          <span>公式LINEへの登録が完了するまで、RBS.edge本体・専用インジケーター・導入解説動画は提供されません。</span>
+        </div>
+
+        <p class="section-kicker package-kicker">CONTENTS</p>
+        <h2 class="package-heading">お渡しする3点セット</h2>
+        <p class="section-intro">公式LINE登録後、導入と継続運用に必要な内容をまとめてお渡しします。</p>
+        <div class="package-grid">
+          <article class="package-card reveal">
+            <span class="package-num">01</span>
+            <div class="package-icon blue">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="M8 21h8M12 18v3"/><path d="m8 14 3-4 2 2 3-4"/></svg>
+            </div>
+            <h3>RBS.edge 本体<br>+ 専用インジケーター</h3>
+            <p>自動売買システムと運用に必要な専用ツール一式。</p>
+          </article>
+          <article class="package-card reveal">
+            <span class="package-num">02</span>
+            <div class="package-icon navy">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m10 9 5 3-5 3z"/></svg>
+            </div>
+            <h3>初心者向け<br>導入解説動画</h3>
+            <p>画面を見ながら進められる、わかりやすい導入手順。</p>
+          </article>
+          <article class="package-card reveal">
+            <span class="package-num">03</span>
+            <div class="package-icon line">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11a8 8 0 0 1-9 8l-5 2 1-4a8 8 0 1 1 13-6z"/><path d="M8 11h8m-8 3h5"/></svg>
+            </div>
+            <h3>公式LINE<br>半永久サポート</h3>
+            <p>導入・設定・運用中の疑問を、継続して相談できます。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="message-section section" id="message">
+      <div class="section-inner narrow">
+        <p class="section-kicker light">MESSAGE</p>
+        <h2>RBS.edgeをお届けする理由</h2>
+        <p class="section-intro light">開発者から、導入を検討されているあなたへ。</p>
+        <div class="message-card reveal">
+          <div class="message-heading">
+            <span>DEVELOPER'S MESSAGE</span>
+            <strong>最初は、世に公開する予定は<br>全くありませんでした。</strong>
+          </div>
+          <div class="message-body">
+            <p>今回の「RBS.edge」ですが、最初は世に公開する予定は全くありませんでした。友人のプログラマーと2人だけで運用していくつもりだったからです。</p>
+            <p>しかし実際に運用を続ける中で、その成績があまりにも優秀だったため、<strong>「このシステムで一人でも多くの人に喜んでもらえたら」</strong>と考え、公開を決意しました。</p>
+            <p>バイナリーオプションという業界柄、「RBS.edge」を怪訝に思われる方もいらっしゃるかもしれません。ただ、今までの実績は一切の虚偽なく、本物です。</p>
+            <p>ご不安な方は、今までの運用履歴を全て開示いたしますので、お気軽にお申し出ください。</p>
+            <p>正直に申し上げて、ここまで「ほとんど労働をせずに利益を出せる」システムは、他に存在しないのではないかと自負しています。</p>
+            <p>PC操作が苦手な方や、投資経験が全くない方にも、精一杯サポートいたします。安心してご利用いただけるよう全力でフォローします。</p>
+            <p>もしあなたが少しでも「お金の不安」をお持ちでしたら、ぜひこの「RBS.edge」を手に入れてみてください。あなたの人生を変えてみせる、という自信があります。</p>
+            <p>最後までお読みいただき、ありがとうございました。<br>それでは、「RBS.edge」の導入時にまたお会いしましょう。</p>
+          </div>
+          <div class="message-sign">
+            <span>RBS.edge 開発者</span>
+            <img src="assets/logo.png" alt="RBS.edge">
+          </div>
+        </div>
+        <!-- <p class="message-disclaimer">※上記は開発者の見解・意気込みを示すものであり、利益や成果を保証するものではありません。取引では損失が発生する可能性があります。</p> -->
+      </div>
+    </section>
+
+    <section class="faq-section section" id="faq">
+      <div class="section-inner narrow">
+        <p class="section-kicker">FAQ</p>
+        <h2>よくある質問</h2>
+        <p class="section-intro">導入前によくいただくご質問にお答えします。</p>
+        <div class="faq-list">
+          <details class="faq-item reveal" open>
+            <summary>
+              <span class="faq-mark">Q</span>
+              <strong>エントリーはどれくらいありますか？</strong>
+              <i aria-hidden="true"></i>
+            </summary>
+            <div class="faq-answer">
+              <span class="faq-mark">A</span>
+              <p>1日に0〜20回程度が多いです。相場状況によってエントリー回数は変動します。</p>
+            </div>
+          </details>
+          <details class="faq-item reveal">
+            <summary>
+              <span class="faq-mark">Q</span>
+              <strong>負けるときはありますか？</strong>
+              <i aria-hidden="true"></i>
+            </summary>
+            <div class="faq-answer">
+              <span class="faq-mark">A</span>
+              <p>常に勝ち続ける手法は存在しません。本システムは、個々の取引ではなくトータルでの勝ちを目指しています。過去約19年半分のデータで検証していますが、一時的なマイナスや損失が発生する可能性があり、将来の利益を保証するものではありません。</p>
+            </div>
+          </details>
+          <details class="faq-item reveal">
+            <summary>
+              <span class="faq-mark">Q</span>
+              <strong>なぜ利益を上げ続けていけるのですか？</strong>
+              <i aria-hidden="true"></i>
+            </summary>
+            <div class="faq-answer">
+              <span class="faq-mark">A</span>
+              <p>私しか知らない完全オリジナルのロジックを使用しており、第三者に広まるリスクがなく、エントリーポイントの優位性を確保し続けることができます。</p>
+            </div>
+          </details>
+          <details class="faq-item reveal">
+            <summary>
+              <span class="faq-mark">Q</span>
+              <strong>パソコンに疎く、設定できるか不安です。</strong>
+              <i aria-hidden="true"></i>
+            </summary>
+            <div class="faq-answer">
+              <span class="faq-mark">A</span>
+              <p>しっかり稼働できるまで、丁寧にサポートいたします。設定中にわからないことがあれば、公式LINEでいつでもご対応致します。</p>
+            </div>
+          </details>
+          <details class="faq-item reveal">
+            <summary>
+              <span class="faq-mark">Q</span>
+              <strong>VPSで稼働できますか？</strong>
+              <i aria-hidden="true"></i>
+            </summary>
+            <div class="faq-answer">
+              <span class="faq-mark">A</span>
+              <p>VPSでの稼働も可能です。パソコンをお持ちでない方はおすすめのVPS業者をご紹介致しますのでご購入後、メッセージ下さい。</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="price-section section" id="price">
+      <div class="price-wave" aria-hidden="true"></div>
+      <div class="section-inner narrow">
+        <p class="section-kicker">PRICE</p>
+        <h2>RBS.edge 本体価格</h2>
+        <div class="price-card reveal">
+          <div class="price-badge">追加費用なし</div>
+          <img src="assets/logo.png" alt="RBS.edge">
+          <p class="price-label">RBS.edge システム一式</p>
+          <p class="price"><small>税込</small><strong>29,800</strong><span>円</span></p>
+          <div class="included-list">
+            <span><i>✓</i> 本体＋専用インジケーター</span>
+            <span><i>✓</i> 導入解説動画</span>
+            <span><i>✓</i> LINEサポート</span>
+          </div>
+          <a class="button button-primary button-price purchase-link" href="#price">
+            <span>RBS.edgeを購入する</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+          </a>
+          <p class="payment-note">Infotopの安全な決済ページへ移動します。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="requirements-section section" id="requirements">
+      <div class="section-inner narrow">
+        <p class="section-kicker">SYSTEM REQUIREMENTS</p>
+        <h2>ソフトウェアの動作環境</h2>
+        <p class="section-intro">ご購入前に、ご利用予定のPC環境をご確認ください。</p>
+        <div class="requirements-card reveal">
+          <div class="requirement-item">
+            <div class="requirement-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg>
+            </div>
+            <span>OS</span>
+            <strong>Windows 10<br>Windows 11</strong>
+          </div>
+          <div class="requirement-item">
+            <div class="requirement-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M9 2v3m6-3v3M9 19v3m6-3v3M2 9h3m-3 6h3m14-6h3m-3 6h3"/></svg>
+            </div>
+            <span>CPU</span>
+            <strong>Core i5以上</strong>
+          </div>
+          <div class="requirement-item">
+            <div class="requirement-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v10H4z"/><path d="M7 10v4m3-4v4m3-4v4m3-4v4"/></svg>
+            </div>
+            <span>メモリ</span>
+            <strong>3GB以上<br><small>4GB以上推奨</small></strong>
+          </div>
+          <div class="requirement-item">
+            <div class="requirement-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M8 21H3v-5m13 5h5v-5"/></svg>
+            </div>
+            <span>解像度</span>
+            <strong>1380 × 800<br>以上</strong>
+          </div>
+          <div class="requirement-item">
+            <div class="requirement-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5a10 10 0 0 1 14 0M8 16a6 6 0 0 1 8 0M11 19.5a2 2 0 0 1 2 0"/></svg>
+            </div>
+            <span>接続環境</span>
+            <strong>ブロードバンド<br><small>光回線推奨</small></strong>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <img src="assets/logo.png" alt="RBS.edge">
+      <div class="footer-copy">
+        <h2>リスク・注意事項</h2>
+        <p>本商品は投資・取引に関する情報およびシステムを提供するものであり、利益を保証するものではありません。相場変動、通信環境、取引環境等により損失が生じる可能性があります。投資判断はご自身の責任で行い、余裕資金の範囲内でご利用ください。</p>
+      </div>
+      <div class="footer-links">
+        <a href="legal.html">特定商取引法に基づく表記</a>
+        <a href="#top">ページ上部へ ↑</a>
+      </div>
+      <p class="copyright">© 2026 RBS.edge. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <div class="mobile-cta">
+    <div><small>本体価格</small><strong>29,800円</strong></div>
+    <a class="button button-primary purchase-link" href="#price">購入する</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

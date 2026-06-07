@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" role="img" aria-labelledby="title desc">
+  <title id="title">RBS.edge</title>
+  <desc id="desc">Blue gradient RBS edge logo</desc>
+  <defs>
+    <linearGradient id="rbsGradient" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b7cff"/>
+      <stop offset=".52" stop-color="#0645df"/>
+      <stop offset="1" stop-color="#00d5ef"/>
+    </linearGradient>
+    <linearGradient id="edgeGradient" x1="0" x2="1">
+      <stop offset="0" stop-color="#061d5c"/>
+      <stop offset="1" stop-color="#0d2b6c"/>
+    </linearGradient>
+  </defs>
+  <g transform="skewX(-10)">
+    <text x="30" y="170" fill="url(#rbsGradient)" font-family="Arial Black, Arial, sans-serif" font-size="170" font-style="italic" font-weight="900" letter-spacing="-14">RBS</text>
+    <circle cx="517" cy="163" r="14" fill="#0b8fff"/>
+    <text x="545" y="168" fill="url(#edgeGradient)" font-family="Arial, sans-serif" font-size="105" font-style="italic" font-weight="300" letter-spacing="-6">edge</text>
+  </g>
+  <path d="M880 162h48l8-15 7 15h17l-17 7-7 17-8-17z" fill="#00d5ef"/>
+  <path d="M42 188h210l-78 18z" fill="#0b66f6" opacity=".85"/>
+</svg>
