@@ -349,6 +349,53 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 .chart-stat b { color: #fff; font-size: 20px; }
 .timeline { position: absolute; z-index: 2; right: 32px; bottom: 24px; left: 32px; display: flex; align-items: center; color: #7395c6; font-size: 11px; font-weight: 800; letter-spacing: .13em; }
 .timeline i { flex: 1; height: 1px; margin: 0 11px; background: #27558a; }
+.backtest-results {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  align-items: center;
+  gap: 30px;
+  padding: 27px 34px;
+  border-top: 1px solid rgba(110, 178, 255, .16);
+  background: rgba(2, 17, 44, .5);
+}
+.backtest-results-heading span {
+  display: block;
+  margin-bottom: 7px;
+  color: #42cef4;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .17em;
+}
+.backtest-results-heading strong { color: #fff; font-size: 19px; }
+.backtest-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0;
+}
+.backtest-metrics > div {
+  padding: 5px 22px;
+  border-left: 1px solid rgba(110, 178, 255, .17);
+}
+.backtest-metrics dt {
+  margin-bottom: 5px;
+  color: #7f9cc4;
+  font-size: 12px;
+  font-weight: 700;
+}
+.backtest-metrics dd {
+  margin: 0;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -.025em;
+}
+.backtest-metrics dd small {
+  margin-left: 3px;
+  color: #5fcff2;
+  font-size: 13px;
+}
 .evidence-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-top: 18px; }
 .evidence-card { overflow: hidden; margin: 0; border: 1px solid rgba(110, 178, 255, .16); border-radius: 17px; background: rgba(5, 26, 64, .76); }
 .evidence-wide { grid-column: 1 / -1; }
@@ -361,6 +408,17 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 .evidence-card figcaption span { margin-bottom: 7px; color: #45caef; font-size: 12px; font-weight: 900; letter-spacing: .18em; }
 .evidence-card figcaption strong { font-size: 20px; }
 .evidence-card figcaption small { margin-top: 7px; color: #8299bd; font-size: 14px; }
+.operation-grid { grid-template-columns: 1fr; margin-top: 18px; }
+.operation-card .operation-image {
+  position: relative;
+  height: auto;
+  aspect-ratio: 1109 / 377;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  background: #050b15;
+}
+.operation-card .operation-image img { width: 100%; height: 100%; object-fit: contain; }
 .evidence-gallery-block { margin-top: 75px; }
 .gallery-heading {
   display: flex;
@@ -830,9 +888,15 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   .backtest-copy h3 strong { font-size: 82px; }
   .backtest-visual { min-height: 270px; padding: 30px 18px 25px; }
   .backtest-visual svg { height: 200px; }
+  .backtest-results { grid-template-columns: 1fr; gap: 20px; padding: 26px 20px; }
+  .backtest-metrics { grid-template-columns: repeat(2, 1fr); gap: 0; }
+  .backtest-metrics > div { padding: 12px 10px; border-left: 0; border-top: 1px solid rgba(110, 178, 255, .17); }
+  .backtest-metrics > div:nth-child(even) { border-left: 1px solid rgba(110, 178, 255, .17); }
+  .backtest-metrics dd { font-size: 23px; }
   .evidence-wide { grid-column: auto; }
   .evidence-wide .image-wrap, .image-wrap { height: 230px; }
   .evidence-wide .image-wrap img { object-position: 65% center; }
+  .operation-card .operation-image { height: auto; aspect-ratio: 1109 / 377; }
   .evidence-gallery-block { margin-top: 58px; }
   .gallery-heading { align-items: flex-start; flex-direction: column; gap: 12px; }
   .gallery-heading h3 { font-size: 24px; }
