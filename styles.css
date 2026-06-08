@@ -368,6 +368,24 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   letter-spacing: .17em;
 }
 .backtest-results-heading strong { color: #fff; font-size: 19px; }
+.backtest-results-heading b {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  margin-top: 12px;
+  padding: 7px 11px;
+  border: 1px solid rgba(63, 210, 245, .4);
+  border-radius: 7px;
+  color: #d8f8ff;
+  background: rgba(18, 169, 219, .12);
+  font-size: 12px;
+  line-height: 1;
+}
+.backtest-results-heading b em {
+  color: #55dcff;
+  font-size: 18px;
+  font-style: normal;
+}
 .backtest-metrics {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -412,13 +430,12 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 .operation-card .operation-image {
   position: relative;
   height: auto;
-  aspect-ratio: 1109 / 377;
-  display: grid;
-  place-items: center;
+  aspect-ratio: auto;
+  display: block;
   padding: 0;
   background: #050b15;
 }
-.operation-card .operation-image img { width: 100%; height: 100%; object-fit: contain; }
+.operation-card .operation-image img { display: block; width: 100%; height: auto; object-fit: contain; }
 .evidence-gallery-block { margin-top: 75px; }
 .gallery-heading {
   display: flex;
@@ -896,7 +913,7 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   .evidence-wide { grid-column: auto; }
   .evidence-wide .image-wrap, .image-wrap { height: 230px; }
   .evidence-wide .image-wrap img { object-position: 65% center; }
-  .operation-card .operation-image { height: auto; aspect-ratio: 1109 / 377; }
+  .operation-card .operation-image { height: auto; aspect-ratio: auto; }
   .evidence-gallery-block { margin-top: 58px; }
   .gallery-heading { align-items: flex-start; flex-direction: column; gap: 12px; }
   .gallery-heading h3 { font-size: 24px; }
