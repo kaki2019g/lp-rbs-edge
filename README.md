@@ -71,32 +71,30 @@ URL変更後は、ヘッダー、ファーストビュー、価格欄、モバ�
 ### 前提条件
 
 - Node.js
-- Firebase CLI
 - 対象Firebaseプロジェクトへのデプロイ権限
 
-Firebase CLIを未導入の場合:
+Firebase CLIはグローバルインストールせず、`npx`から`firebase-tools`を実行します。初回のみCLIのダウンロードが行われます。
 
 ```bash
-npm install -g firebase-tools
-firebase login
+npx --yes firebase-tools login
 ```
 
 ### プレビュー
 
 ```bash
-firebase emulators:start --only hosting
+npx --yes firebase-tools emulators:start --only hosting
 ```
 
 ### デプロイ
 
 ```bash
-firebase deploy --only hosting
+npx --yes firebase-tools deploy --only hosting
 ```
 
 デフォルトのFirebaseプロジェクトは`.firebaserc`の`test-8abb4`です。別環境へ公開する場合は、デプロイ前に対象プロジェクトを確認してください。
 
 ```bash
-firebase use
+npx --yes firebase-tools use
 ```
 
 ### Hosting設定
