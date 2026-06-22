@@ -1004,6 +1004,17 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 .included-list i { color: var(--blue); font-style: normal; font-weight: 900; }
 .button-price { width: 100%; min-height: 70px; font-size: 20px; }
 .payment-note { margin: 14px 0 0; color: #8491a7; font-size: 13px; }
+.payment-cautions {
+  max-width: 520px;
+  margin: 10px auto 0;
+  padding: 0;
+  color: #8491a7;
+  font-size: 13px;
+  line-height: 1.75;
+  list-style: none;
+  text-align: center;
+}
+.payment-cautions li { margin: 0; }
 
 .site-footer { padding: 70px 24px 30px; color: #94a7c6; background: #061735; }
 .footer-inner { width: min(1100px, 100%); margin: 0 auto; }
