@@ -97,6 +97,11 @@ npx --yes firebase-tools deploy --only hosting
 npx --yes firebase-tools use
 ```
 
+### 公開停止
+```bash
+npx --yes firebase-tools hosting:disable --project test-8abb4 --force
+```
+
 ### Hosting設定
 
 `firebase.json`では次の設定を行っています。
@@ -118,5 +123,3 @@ npx --yes firebase-tools use
 4. 購入ボタンが正しい決済ページへ遷移することを確認する
 5. 画像のリンク切れ、代替テキスト、PC・スマートフォン表示を確認する
 6. 利益保証と誤認される表現がなく、リスク表示が維持されていることを確認する
-
-バックテスト結果や運用実績は将来の利益を保証するものではありません。数値や訴求表現を変更する際は、根拠資料と広告・販売に関する規約を確認してください。
