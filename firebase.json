@@ -8,6 +8,7 @@
       "**/.*",
       "**/node_modules/**",
       "README.md",
+      "AGENTS.md",
       "affiliate-guide.md",
       "assets/banners/**",
       "assets/old/**"

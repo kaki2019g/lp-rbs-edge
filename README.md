@@ -33,6 +33,7 @@ HTML、CSS、JavaScriptのみで構成されており、ビルド処理を行わ
 ├── assets/             # 公開ページで使用する画像
 │   ├── banners/        # アフィリエイト向けバナー（公開対象外）
 │   └── old/            # 旧画像（公開対象外）
+├── AGENTS.md           # Codex/AIエージェント向け作業ガイド（公開対象外）
 ├── affiliate-guide.md  # アフィリエイター向け紹介資料（公開対象外）
 ├── firebase.json       # Firebase Hosting設定
 └── .firebaserc         # Firebaseプロジェクト設定
@@ -111,7 +112,7 @@ npx --yes firebase-tools hosting:disable --project test-8abb4 --force
 - 画像は24時間キャッシュ
 - 拡張子を省略したURLを有効化（例: `/legal`）
 - 基本的なセキュリティヘッダーを付与
-- 管理資料、バナー、旧画像、READMEを公開対象から除外
+- 管理資料、バナー、旧画像、README、AGENTS.mdを公開対象から除外
 
 公開ディレクトリが`.`のため、新しいファイルを追加すると原則として公開対象になります。運用資料や公開不要なファイルを追加した場合は、`firebase.json`の`hosting.ignore`にも追加してください。
 
